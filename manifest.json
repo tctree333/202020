@@ -1,0 +1,36 @@
+{
+  "name": "20/20/20",
+  "version": "1.3.2",
+  "description": "Sends a notification every 20 minutes telling you to look at something 20 ft. away for 20 seconds.",
+  "permissions": ["notifications","storage","alarms","tabs"],
+  "web_accessible_resources": ["img.png"],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "20/20/20",
+    "default_icon": {
+      "32": "img/32.png",
+      "57": "img/57.png",
+      "72": "img/72.png",
+      "76": "img/76.png",
+      "114": "img/114.png",
+      "120": "img/120.png",
+      "144": "img/144.png",
+      "142": "img/152.png"
+    }
+  },
+  "icons": {
+    "32": "img/32.png",
+    "57": "img/57.png",
+    "72": "img/72.png",
+    "76": "img/76.png",
+    "114": "img/114.png",
+    "120": "img/120.png",
+    "144": "img/144.png",
+    "142": "img/152.png"
+  },
+  "manifest_version": 2
+}
